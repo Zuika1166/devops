@@ -1,2 +1,4 @@
 # devops
-DEVOPS Pipeline TELEGRAM
+## CI Pipeline
+
+This project uses GitHub Actions CI pipeline.
