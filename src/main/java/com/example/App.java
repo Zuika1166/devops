@@ -1,14 +1,17 @@
 package com.example;
 
-public class App{
-public static int add(int a, int b) {
-  return a + b;
-}
-  public static void main(String[] args) {
-    System.out.println(add(2, 3));
-  }
-}
+public class App {
 
-  
+    public static void main(String[] args) {
+        printAddition(2, 3);
+    }
 
-  
+    private static void printAddition(int a, int b) {
+        System.out.println(add(a, b));
+    }
+
+    public static int add(int left, int right) {
+        int total = left + right;
+        return total;
+    }
+}
